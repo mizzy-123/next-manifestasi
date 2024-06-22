@@ -1,3 +1,4 @@
+"use client";
 export default function Service() {
   return (
     <section className="services" id="services">

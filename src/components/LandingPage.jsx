@@ -1,17 +1,16 @@
 "use client";
-import Image from "next/image";
-import styles from "./page.module.css";
+
+import { useEffect } from "react";
+import ScrollReveal from "scrollreveal";
+
+import Team from "@/components/Team";
 import Header from "@/components/Header";
 import HomeContent from "@/components/HomeContent";
 import Footer from "@/components/Footer";
 import About from "@/components/About";
 import Service from "@/components/Service";
-import "swiper/css";
-import Team from "@/components/Team";
-import { useEffect } from "react";
-import ScrollReveal from "scrollreveal";
 
-export default function Home() {
+export default function LandingPage() {
   useEffect(() => {
     const sections = document.querySelectorAll("section");
     const navLinks = document.querySelectorAll("header nav a");
@@ -58,14 +57,13 @@ export default function Home() {
     ScrollReveal().reveal(".services-container, .portofolio-box, .testimonial-wrapper", { origin: "bottom" });
   }, []);
   return (
-    <main>
-      <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+    <>
       <Header />
       <HomeContent />
       <About />
       <Service />
       <Team />
       <Footer />
-    </main>
+    </>
   );
 }

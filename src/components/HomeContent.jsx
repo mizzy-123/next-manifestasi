@@ -1,3 +1,4 @@
+"use client";
 export default function HomeContent() {
   return (
     <section className="home" id="home">
