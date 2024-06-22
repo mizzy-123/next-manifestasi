@@ -9,7 +9,7 @@ export default function Header() {
         </a>
         <a href="#about">About</a>
         <a href="#services">Services</a>
-        <a href="#portfolio">Our Team</a>
+        <a href="#team">Our Team</a>
       </nav>
 
       <div className="bx bx-menu" id="menu-icon"></div>

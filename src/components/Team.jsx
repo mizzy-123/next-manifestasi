@@ -25,7 +25,7 @@ export default function Team() {
     };
   }, []);
   return (
-    <div class="testimonial-container">
+    <section id="team" class="testimonial-container">
       <h2 class="heading">
         Our <span>Team</span>
       </h2>
@@ -36,17 +36,31 @@ export default function Team() {
             <div class="testimonial-slide swiper-slide">
               <img src="/images/ilham.JPG" alt="" />
               <h3>Ilham</h3>
-              <p>Pelayanan jasanya bagus, orangnya ramah bintang 5 lah pokoknya</p>
+              <p>
+                <span>Front End Developer</span>, dan <span>Cloud Computing</span>. Membantumu untuk membuat tampilan <span>Website</span> yang friendly, dan <span>Install Website anda sampai online</span>
+              </p>
             </div>
             <div class="testimonial-slide swiper-slide">
               <img src="/images/naufal.jpg" alt="" />
               <h3>Naufal</h3>
-              <p>Hasilnya bagus sesuai selera, rekomended</p>
+              <p>
+                <span>UI/UX Designer</span>, dan <span>Front End Developer</span>. Membantumu untuk mendesign <span>Website</span> dan <span>Aplikasi</span>, serta membuat tampilan website yang friendly
+              </p>
             </div>
             <div class="testimonial-slide swiper-slide">
               <img src="/images/eka.png" alt="" />
               <h3>Eka</h3>
-              <p>Kinerja bagus, fast respon</p>
+              <p>
+                <span>Mobile Developer</span>, dan <span>Machine learning</span>. Membantumu untuk membuat <span>Aplikasi Mobile</span> dengan tampilan yang menarik, dan juga dapat membantumu untuk membuatkan <span>AI/Sistem cerdas</span>,
+                di Aplikasimu
+              </p>
+            </div>
+            <div class="testimonial-slide swiper-slide">
+              <img src="/images/mizzy.JPG" alt="" />
+              <h3>Mizzy</h3>
+              <p>
+                <span>FullStack Developer</span>. Membantumu untuk membuatkan kamu baik itu <span>Aplikasi Mobile</span> maupun <span>Website</span>
+              </p>
             </div>
           </div>
 
@@ -55,6 +69,6 @@ export default function Team() {
           <div class="swiper-pagination"></div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
