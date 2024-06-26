@@ -1075,6 +1075,18 @@ span {
     .portofolio .portofolio-container {
         grid-template-columns: 1fr;
     }
+
+    .home-content h3 {
+        font-size: 2.8rem;
+    }
+    
+    .home-content h1 {
+        font-size: 2.5rem;
+    }
+    
+    .home-content p {
+        font-size: 1.4rem;
+    }
 }
 
 @media only screen and (max-width: 450px){
