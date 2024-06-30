@@ -1,7 +1,5 @@
 "use client";
 
-import { useEffect } from "react";
-import Swiper from "swiper";
 import "../css/CardTeam.css";
 
 export default function Team() {

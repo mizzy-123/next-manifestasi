@@ -64,6 +64,10 @@ export default function LandingPage() {
       <Service />
       <Team />
       <Footer />
+
+      <a href="https://wa.link/3rhcme" className="floating-wa" target="_blank">
+        <img src="/images/whatassapp.png" width={60} alt="" />
+      </a>
     </>
   );
 }
