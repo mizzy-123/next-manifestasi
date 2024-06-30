@@ -34,7 +34,7 @@ export default function Service() {
         <div className="services-box">
           <i class="bx bx-task"></i>
           <h3>Joki Tugas</h3>
-          <p>Kita akan membantu tugas anda, dari tugas coding/pemrograman, sampai tugas membuat website, dan aplikasi</p>
+          <p>Kita akan membantu tugas anda, dari tugas coding/pemrograman, sampai tugas membuat website, dan aplikasi, dengan harga yang terjangkau</p>
           <a href="#portfolio" className="btn">
             Read More
           </a>

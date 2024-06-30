@@ -7,7 +7,9 @@ export default function HomeContent() {
         <h1>
           Ahlinya bangun <span>Website</span> dan <span>Aplikasi</span>, dengan design yang friendly
         </h1>
-        <p>Tempat jasanya Website, dan Aplikasi, yang pastinya kepuasan anda adalah prioritas kami</p>
+        <p>
+          Tempat jasanya <span>Website</span>, dan <span>Aplikasi</span> dengan <span>harga yang terjangkau</span>, yang pastinya kepuasan anda adalah prioritas kami
+        </p>
 
         <div className="social-media">
           <a href="#">
