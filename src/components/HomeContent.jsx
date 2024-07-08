@@ -25,7 +25,7 @@ export default function HomeContent() {
             <i className="bx bxl-linkedin"></i>
           </a>
         </div>
-        <a href="https://wa.link/3rhcme" className="btn-logo">
+        <a href="https://wa.link/bwpwbi" className="btn-logo">
           <i className="bx bxl-whatsapp"></i>
           <p>Konsultasikan sekarang</p>
         </a>
