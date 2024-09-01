@@ -32,7 +32,9 @@ export default function LandingPage() {
         if (top >= offset && top < offset + height) {
           navLinks.forEach((links) => {
             links.classList.remove("active");
-            document.querySelector("header nav a[href*=" + id + "]").classList.add("active");
+            document
+              .querySelector("header nav a[href*=" + id + "]")
+              .classList.add("active");
           });
         }
       });
@@ -54,7 +56,10 @@ export default function LandingPage() {
     });
 
     ScrollReveal().reveal(".home-content, .heading", { origin: "top" });
-    ScrollReveal().reveal(".services-container, .portofolio-box, .testimonial-wrapper", { origin: "bottom" });
+    ScrollReveal().reveal(
+      ".services-container, .portofolio-box, .testimonial-wrapper",
+      { origin: "bottom" }
+    );
   }, []);
   return (
     <>
